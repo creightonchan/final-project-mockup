@@ -1,3 +1,39 @@
 body {
-  padding-top: 61px;  /* Move body of page below navbar. */
+  padding-top: 20px;  /* Move body of page below navbar. */
+  background: #151515;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+.ui.borderless.topmenu.menu {
+  border:none;
+  border-radius: 0;
+  box-shadow: none;
+  background: url('/images/bg-header.png');
+
+}
+
+#home-bg {
+  background: url('/images/bg.png') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 682px;
+  margin-bottom: 10px;
+}
+
+.description {
+  background: linear-gradient(#151515, darkslategray, #151515);
+  font-size: 30px;
+  padding: 40px 0;
+}
+
+#card_ex {
+  background: url("/images/holmes.png") no-repeat center center;
+  min-height: 600px;
+  background-size: cover;
+}
+
+#description2 {
+  background: url("/images/bg2.png") no-repeat center center;
+  background-size: cover;
+  min-height: 400px;
 }
