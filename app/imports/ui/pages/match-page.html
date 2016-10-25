@@ -1,0 +1,15 @@
+<template name="Match_Page">
+  {{#If_Logged_In}}
+    <div style="padding-top: 20px" class="ui two column centered grid container">
+      <div class="nine wide column">
+        <div id = "chat" style="border: 5px solid white; height: 70%">
+          Chat messages
+        </div>
+      </div>
+
+      <div class="three wide column"></div>
+      <span style="text-decoration: underline">List of Online Users</span>
+      <button class="ui button" type="submit">Update</button>
+    </div>
+  {{/If_Logged_In}}
+</template>

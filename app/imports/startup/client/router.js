@@ -22,6 +22,21 @@ FlowRouter.route('/add', {
   },
 });
 
+FlowRouter.route('/battle/:_id', {
+  name: 'Battle_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Battle_Page' });
+  },
+});
+
+FlowRouter.route('/match', {
+  name: 'Match_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Match_Page' });
+  },
+});
+
+
 FlowRouter.route('/stuff/:_id', {
   name: 'Edit_Stuff_Page',
   action() {

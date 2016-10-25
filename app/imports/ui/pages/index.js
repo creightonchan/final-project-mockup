@@ -8,3 +8,10 @@ import './home-page.html';
 
 import './list-stuff-page.html';
 import './list-stuff-page.js';
+
+import './battle-page.html';
+import './battle-page.js';
+
+import './match-page.html';
+import './match-page';
+
