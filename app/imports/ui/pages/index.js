@@ -15,3 +15,5 @@ import './battle-page.js';
 import './match-page.html';
 import './match-page';
 
+import './library-page.html';
+

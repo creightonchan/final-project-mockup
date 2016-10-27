@@ -36,6 +36,13 @@ FlowRouter.route('/match', {
   },
 });
 
+FlowRouter.route('/library', {
+  name: 'Library_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Library_Page' });
+  },
+});
+
 
 FlowRouter.route('/stuff/:_id', {
   name: 'Edit_Stuff_Page',

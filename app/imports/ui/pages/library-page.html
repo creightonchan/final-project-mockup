@@ -1,0 +1,145 @@
+<template name="Library_Page" xmlns="http://www.w3.org/1999/html">
+  {{#If_Logged_In}}
+    <div class="ui container" style="background: url('/images/librarybg.jpg') center no-repeat;
+                                      background-size:cover; width: 100%;">
+      <div style="padding-top: 100px;" class="ui three centered column grid">
+        <div class="three wide column">
+          <div class="chat" style="height: 100%;">
+            <div id="cardinfo">
+              <img class="ui image" src="/images/temple2.png">
+              <hr/>
+              <p>
+                Land<br/>
+                Temple of Deceit enters the battlefield tapped. <br/>
+                When Temple of Deceit enters the battlefield, srcy 1.
+                <em>
+                  (Look at the top card of your library. You may put that card on the
+                  bottom of you library.)
+                </em>
+              </p>
+              <p>
+                POST<br/>
+                Pacific Ocean Science and Technology building
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="eight wide column">
+          <div class="list">
+            <div style="background: linear-gradient(#fbc52b, #fab225);font-size: 20px;
+                              border-bottom: 2px solid black">
+              Cards in my deck
+            </div>
+            <div class="ui six column four row grid" style="padding: 0 20px;">
+              <div class="row">
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+              </div>
+              <div class="row">
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+              </div>
+              <div class="row">
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+              </div>
+              <div class="row">
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui image" src="/images/temple2.png">
+                </div>
+              </div>
+
+            </div>
+
+            <div style="text-align: left; padding-left: 20px; border-bottom: 2px solid black">
+
+            </div>
+          </div>
+        </div>
+
+        <div class="three wide column">
+          <div class="list" style="height: 100%">
+            Deck 1<br/>Deck 2<br/><hr/>
+          <div class="ui small transparent input">
+            <input type="text" placeholder="Look for a card to add">
+          </div>
+          &nbsp;&nbsp;<i class="search icon" style="color: #FFFFFF"></i>
+            <div style="padding: 20px; box-sizing: border-box">
+              <img class="ui image" src="/images/temple2.png">
+            </div>
+          </div>
+          </div>
+
+      </div>
+    </div>
+
+
+
+
+  {{/If_Logged_In}}
+</template>
