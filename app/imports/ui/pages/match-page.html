@@ -1,15 +1,69 @@
 <template name="Match_Page">
   {{#If_Logged_In}}
-    <div style="padding-top: 20px" class="ui two column centered grid container">
-      <div class="nine wide column">
-        <div id = "chat" style="border: 5px solid white; height: 70%">
-          Chat messages
+    <div class="ui container" style="background: url('/images/chatbg.jpg'); width: 100%;">
+      <div style="padding-top: 100px;" class="ui two centered column grid">
+        <div class="nine wide column">
+          <div class="chat">
+            <div id="m1">UserId: message</div>
+            <div id="m2">UserId: message</div>
+            <div id="m3">UserId: message</div>
+            <div id="m4">UserId: message</div>
+            <div id="m5">UserId: message</div>
+            <div id="m6">UserId: message</div>
+            <div id="m7">UserId: message</div>
+            <div id="m8">UserId: message</div>
+            <div id="m9">UserId: message</div>
+          </div>
+        </div>
+        <div class="three wide column">
+          <div class="list">
+            <div style="background: linear-gradient(#fbc52b, #fab225);font-size: 20px;
+                              border-bottom: 2px solid black">
+              Online Users
+            </div>
+            <div style="text-align: left; padding-left: 20px; border-bottom: 2px solid black">
+              User1<br/>
+              User2<br/>
+              User3<br/>
+              User4<br/>
+              User5<br/>
+              User6<br/>
+              User7<br/>
+            </div>
+            <div class="ui medium transparent input">
+              <input type="text" placeholder="Search for a user">
+            </div>
+            &nbsp;&nbsp;<i class="search icon" style="color: #FFFFFF"></i>
+          </div>
         </div>
       </div>
 
-      <div class="three wide column"></div>
-      <span style="text-decoration: underline">List of Online Users</span>
-      <button class="ui button" type="submit">Update</button>
+      <div class="ui two centered column grid">
+        <div class="nine wide column">
+          <div class="chat">
+            Enter messages here<br/><br/>
+
+            <div id="channelswitch" style="text-align: center; font-size: 14px">
+              <hr/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <button class="ui button">General</button>
+              <button class="ui button">Private Channel 1</button>
+              <button class="ui button">Match Request Queue</button>
+              <button class="ui right button">Send Messages</button>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="three wide column">
+          <div class="list" style="height: 197px">
+            <button class="ui small button" type="submit">Match Request</button><br/> 
+            <button class="ui small button" type="submit">Private Chat</button><br/>
+             <button class="ui small button" type="submit">Report User</button>
+          </div>
+        </div>
+      </div>
+
     </div>
   {{/If_Logged_In}}
 </template>
