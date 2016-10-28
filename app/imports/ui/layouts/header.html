@@ -12,10 +12,21 @@
         <a class="{{ isActiveRoute 'Library_Page'}} item" href="{{ pathFor 'Library_Page' }}">
           <span style="font-size: 20px;font-weight: 600;color: #FFFFFF;">My Library</span>
         </a>
-        <a class="{{ isActiveRoute 'Battle_Page'}} item" href="{{ pathFor 'Battle_Page' }}">
-          <span style="font-size: 20px;font-weight: 600;color: #FFFFFF;">Battle! (For Testing)</span>
+        <a class="{{ isActiveRoute 'Rules_Page'}} item" href="{{ pathFor 'Rules_Page' }}">
+          <span style="font-size: 20px;font-weight: 600;color: #FFFFFF;">Basic Rules</span>
         </a>
 
+        <a class="{{ isActiveRoute 'Battle_Page'}} item" href="{{ pathFor 'Battle_Page' }}">
+          <span style="font-size: 20px;font-weight: 600;color: #FFFFFF;">Battle!</span>
+        </a>
+        <a class="{{ isActiveRoute 'Contact_Page'}} item" href="{{ pathFor 'Contact_Page' }}">
+          <span style="font-size: 20px;font-weight: 600;color: #FFFFFF;">Support</span>
+        </a>
+
+      {{else}}
+        <p style="padding-top: 30px;padding-left: 20px; font-size: 20px">
+          You must be an authorized user to access features. Please sign in.
+        </p>
       {{/if}}
       <!-- use to make available
       <a href="#" class="right item">{{> loginButtons }} </a> -->

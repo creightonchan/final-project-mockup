@@ -1,0 +1,63 @@
+<template name="Rules_Page">
+  {{#If_Logged_In}}
+    <div class="ui container" style="background: url('/images/rulesbg.jpg') center no-repeat;
+    width: 100%;background-size: cover">
+      <div style="padding-top: 100px;" class="ui two centered column grid">
+        <div class="three wide column">
+          <div class="slist" style="height: 100%">
+            <div style="background: linear-gradient(#fbc52b, #fab225);font-size: 20px;
+                              border-bottom: 2px solid black">
+              A review of the basics
+            </div>
+            <div class="ui list" style="text-align: left; font-size: 20px;margin:10px">
+              <div class="item">Manoa the Gathering</div>
+              <div class="item">Getting Started</div>
+              <div class="item">Types of Cards</div>
+              <div class="item" style="background: rgba(165,65,26,0.8);">
+                Basic Parts of a Turn
+              </div>
+              <div class="item">Spells</div>
+              <div class="item">Combat</div>
+            </div>
+          </div>
+        </div>
+        <div class="nine wide column">
+          <div class="chat" style="height: 100%">
+              <h2 style="text-align: center">Parts of a turn</h2>
+            <div>
+              <h3>Beginning Phase</h3>
+              <div class="ui text container">
+                Untap step--Turn all your tapped cards upright again.<br/>
+                Upkeep step<br/>
+                Draw step<br/>
+              </div>
+              <h3>Main Phase</h3>
+              <div class="ui text container">
+                You may play one land from your hand by placing it on the
+                battlefield. You may cast creatures, sorceries, and other
+                spells if you can pay for them.
+              </div>
+              <h3>Combat Phase</h3>
+              <div class="ui text container">
+                Beginning of combat step<br/>
+                Declare attackers step-—Tap every creature you want to
+                attack your opponent with. (A creature can’t attack the turn
+                you cast it unless it has haste.)<br/>
+                Declare blockers step—Each untapped defending creature
+                may block one attacker. Creatures don’t have to block.<br/>
+                Combat damage step—Blockers and the attackers they’re
+                blocking deal damage to each other equal to their power,
+                the first number in the lower right corner. If a creature
+                takes damage at least equal to the second number,
+                toughness, it’s destroyed. Unblocked attackers deal damage
+                to your opponent, who loses that much life.<br/>
+                End of combat step
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  {{/If_Logged_In}}
+</template>

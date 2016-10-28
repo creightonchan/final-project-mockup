@@ -1,29 +1,133 @@
 <template name="Battle_Page">
   {{#If_Logged_In}}
-    <div class="ui text container">
-      {{#if Template.subscriptionsReady}}
-        <table style="margin-top: 20px" class="ui celled table">
-          <thead>
-          <tr>
-            <th>Name</th>
-            <th>Quantity</th>
-            <th>Edit</th>
-          </tr>
-          </thead>
+    <div class="ui container" style="background: url('/images/chatbg.jpg') center no-repeat;
+                                      background-size:cover; width: 100%;">
+      <div style="padding-top: 100px;" class="ui two centered column grid">
+        <div class="three wide column">
+          <div class="two row chat" style="height: 100%;">
+            <div class="row">
 
-          <tbody>
-          {{#each stuff in stuffList}}
-            <tr>
-              <td>{{stuff.name}}</td>
-              <td>{{stuff.quantity}}</td>
-              <td><a href="{{pathFor 'Edit_Stuff_Page' _id=stuff._id}}">Edit</a></td>
-            </tr>
-          {{/each}}
-          </tbody>
-        </table>
-      {{else}}
-        {{> Loading}}
-      {{/if}}
+              <div style="text-align: center">
+                <div class="player">Chan <strong>20</strong></div>
+                <img src="/images/temple2.png" height="150px">
+              </div>
+
+            </div>
+
+            <hr/>
+            <br/>
+            <div class="row">
+              <div style="text-align: center">
+                <img src="/images/temple2.png" height="150px">
+                <div class="player">John <strong>20</strong></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="twelve wide column">
+          <div class="slist" style="height: 100%">
+            <div style="background: linear-gradient(#fbc52b, #fab225);font-size: 20px;
+                              border-bottom: 2px solid black">
+
+            </div>
+            <div class="ui six column five row grid" style="padding: 0 20px; height: 100%">
+              <div class="row" style="height: 150px">
+                <div class="column">
+
+                </div>
+                <div class="column">
+                  <img class="ui full image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui full image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui full image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui full image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+
+                </div>
+              </div>
+              <div class="row" style="height: 150px">
+                <div class="column">
+
+                </div>
+                <div class="column">
+
+                </div>
+                <div class="column">
+                  <img class="ui full image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui full image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+
+                </div>
+                <div class="column">
+
+                </div>
+              </div>
+              <div class="row" style="background-color: rgba(94,5,12,0.8); height: 50px">
+                <br/>
+              </div>
+              <div class="row" style="height: 150px">
+                <div class="column">
+
+                </div>
+                <div class="column">
+
+                </div>
+                <div class="column">
+                  <img class="ui full image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui full image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui full image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+
+                </div>
+              </div>
+              <div class="row" style="height: 150px">
+                <div class="column">
+
+                </div>
+                <div class="column">
+                  <img class="ui full image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui full image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+                  <img class="ui full image" src="/images/temple2.png">
+                </div>
+                <div class="column">
+
+                </div>
+                <div class="column">
+
+                </div>
+              </div>
+
+            </div>
+
+            <div style="text-align: left; padding-left: 20px; border-bottom: 2px solid black">
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
     </div>
+
   {{/If_Logged_In}}
 </template>

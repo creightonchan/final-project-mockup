@@ -22,7 +22,7 @@ FlowRouter.route('/add', {
   },
 });
 
-FlowRouter.route('/battle/:_id', {
+FlowRouter.route('/battle', {
   name: 'Battle_Page',
   action() {
     BlazeLayout.render('App_Body', { main: 'Battle_Page' });
@@ -36,10 +36,24 @@ FlowRouter.route('/match', {
   },
 });
 
+FlowRouter.route('/contact', {
+  name: 'Contact_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Contact_Page' });
+  },
+});
+
 FlowRouter.route('/library', {
   name: 'Library_Page',
   action() {
     BlazeLayout.render('App_Body', { main: 'Library_Page' });
+  },
+});
+
+FlowRouter.route('/rules', {
+  name: 'Rules_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Rules_Page' });
   },
 });
 
