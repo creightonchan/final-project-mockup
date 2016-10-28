@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be40bab9-c3e9-4e65-b9d1-704f3c8b0dce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/imports/ui/pages/contact-page.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/imports/ui/pages/contact-page.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/imports/ui/pages/library-page.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/imports/ui/pages/rules-page.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/imports/ui/pages/rules-page.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/home-page.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/landing-page.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/not-authorized-page.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p2.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/imports/startup/client/router.js" afterPath="$PROJECT_DIR$/app/imports/startup/client/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/imports/ui/layouts/header.html" afterPath="$PROJECT_DIR$/app/imports/ui/layouts/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/imports/ui/pages/battle-page.html" afterPath="$PROJECT_DIR$/app/imports/ui/pages/battle-page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/imports/ui/pages/index.js" afterPath="$PROJECT_DIR$/app/imports/ui/pages/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/imports/ui/pages/library-page.html" afterPath="$PROJECT_DIR$/app/imports/ui/pages/library-page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/imports/ui/pages/match-page.html" afterPath="$PROJECT_DIR$/app/imports/ui/pages/match-page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/imports/ui/stylesheets/style.css" afterPath="$PROJECT_DIR$/app/imports/ui/stylesheets/style.css" />
-    </list>
+    <list default="true" id="be40bab9-c3e9-4e65-b9d1-704f3c8b0dce" name="Default" comment="" />
     <ignored path="mockup.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
