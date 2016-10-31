@@ -1,0 +1,7 @@
+# ignore intellij
+*.iml
+.idea
+
+.DS_Store
+
+settings.production.json
