@@ -1,5 +1,5 @@
 body {
-  padding-top: 20px;  /* Move body of page below navbar. */
+  padding-top: 0px;  /* Move body of page below navbar. */
   background: #151515;
   font-size: 40px;
   color: #FFFFFF;
@@ -62,4 +62,21 @@ body {
   box-shadow: 0 1px 2px 2px #151515;
   font-size: 16px;
   text-align: center;
+}
+
+.menuv2.row {
+  margin-top: -55px;
+  background: black;
+  text-align: right;
+  padding-right: 80px;
+}
+.play {
+  border: 3px solid white!important;
+  border-radius: 10px!important;
+  padding: 15px 100px !important;
+  background: rgba(0,0,0,0.5)!important;
+  color: white!important;
+  font-size: 24px!important;
+  font-weight: 200!important;
+/*  margin: 0 auto!important;*/
 }

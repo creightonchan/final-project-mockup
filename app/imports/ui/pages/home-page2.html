@@ -1,0 +1,26 @@
+<template name="Home_Page2">
+
+  <div class="ui two row container" style="width: 100%;">
+    <div class="centered row" style="background: url('/images/landingv2.jpg')no-repeat center center;
+                            background-size: cover;height: 100vh;width: 100%">
+      <img class="ui image" src="/images/manaov2.png" style="padding: 70px;">
+      <div class="ui text container" style="text-align: center">
+        <button class="ui button play">Play now</button>
+      </div>
+    </div>
+    <div class="menuv2 row">
+      <a class="{{ isActiveRoute 'Rules_Page'}} item" href="{{ pathFor 'Rules_Page' }}">
+        <span style="font-size: 25px;font-weight: 600;
+                  color: #FFFFFF;padding: 10px 20px">rules</span>
+      </a>
+
+      <a class="{{ isActiveRoute 'Rules_Page'}} item" href="{{ pathFor 'Rules_Page' }}">
+        <span style="font-size: 25px;font-weight: 600;
+                    color: #FFFFFF;padding: 10px 20px">about</span>
+      </a>
+    </div>
+
+  </div>
+
+
+</template>

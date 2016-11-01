@@ -23,3 +23,5 @@ import './rules-page.js';
 
 import './contact-page.html';
 import './contact-page.js';
+
+import './home-page2.html';
